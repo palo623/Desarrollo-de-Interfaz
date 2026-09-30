@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcriptor IA</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(135deg,#2563eb,#7c3aed);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .card{
+            background:white;
+            width:500px;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        h1{
+            color:#2563eb;
+            margin-bottom:20px;
+        }
+
+        p{
+            color:#666;
+        }
+
+        input[type="file"]{
+            margin:20px 0;
+        }
+
+        button{
+            background:#2563eb;
+            color:white;
+            border:none;
+            padding:12px 24px;
+            border-radius:10px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#1d4ed8;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+    <h1>🎙️ Transcriptor IA</h1>
+
+    <p>Sube un audio y Gemini lo transcribirá automáticamente.</p>
+
+    /transcribir-web
+
+        <input type="file" name="audio" required>
+
+        <br>
+
+        <button type="submit">
+            🚀 Transcribir
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
